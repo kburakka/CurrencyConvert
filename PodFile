@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+target 'Currency Converter' do
+platform :ios, '10.0'
+use_frameworks!
+pod 'Alamofire'
+pod 'SwiftyJSON', '~> 4.0'
+pod 'DropDown', '2.3.4'
+
+end
